@@ -96,7 +96,7 @@ const Navbar = ({ pathname }) => {
           >
             <Link
               to="/"
-              className={`flex space-x-3 py-10 font-barlow text-base   focus:border-r-4 hover:text-tertiary/50 tracking-widest ${
+              className={`flex space-x-3 py-10 font-barlow text-base focus:border-r-4 hover:text-tertiary/50 tracking-widest ${
                 pathname === '/'
                   ? 'border-r-tertiary/100'
                   : 'border-r-tertiary/0'
@@ -107,7 +107,7 @@ const Navbar = ({ pathname }) => {
             </Link>
             <Link
               to="/destination"
-              className={`flex space-x-3 py-10 font-barlow md:text-sm xl:text-base focus:border-r-4  tracking-widest ${
+              className={`flex space-x-3 py-10 font-barlow md:text-sm xl:text-base hover:text-tertiary/50  focus:border-r-4  tracking-widest ${
                 pathname === '/destination'
                   ? 'border-r-tertiary/100'
                   : 'border-r-tertiary/0'
@@ -118,7 +118,7 @@ const Navbar = ({ pathname }) => {
             </Link>
             <Link
               to="/crew"
-              className={`flex space-x-3 py-10 font-barlow  md:text-sm xl:text-base    focus:border-r-4  tracking-widest ${
+              className={`flex space-x-3 py-10 font-barlow  md:text-sm xl:text-base hover:text-tertiary/50    focus:border-r-4  tracking-widest ${
                 pathname === '/crew'
                   ? 'border-r-tertiary/100'
                   : 'border-r-tertiary/0'
@@ -129,7 +129,7 @@ const Navbar = ({ pathname }) => {
             </Link>
             <Link
               to="/technology"
-              className={`flex space-x-3 py-10 font-barlow  md:text-sm xl:text-base focus:border-r-4  tracking-widest ${
+              className={`flex space-x-3 py-10 font-barlow  md:text-sm xl:text-base hover:text-tertiary/50  focus:border-r-4  tracking-widest ${
                 pathname === '/technology'
                   ? 'border-r-tertiary/100'
                   : 'border-r-tertiary/0'
